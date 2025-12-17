@@ -4,8 +4,6 @@
 
 Jarvis is a **voice-controlled personal assistant** built with Python. It listens to your voice commands, executes tasks like opening websites, playing songs, fetching live news, and even answering general queries using **OpenAI’s GPT model**.
 
----
-
 ## 🚀 Features
 
 * **Voice Activation**: Wake up Jarvis by saying **“Jarvis”**.
@@ -21,7 +19,6 @@ Jarvis is a **voice-controlled personal assistant** built with Python. It listen
 * **AI Responses**: Uses **OpenAI GPT** to handle general questions or conversations.
 * **Text-to-Speech (TTS)**: Speaks responses aloud via `pyttsx3`.
 
----
 
 ## 📂 Project Structure
 
@@ -32,8 +29,6 @@ Jarvis is a **voice-controlled personal assistant** built with Python. It listen
 ├── musiclibrary.py     # Dictionary of songs with YouTube links
 └── README.md           # Documentation
 ```
-
----
 
 ## ⚙️ Requirements
 
@@ -48,9 +43,7 @@ Also ensure you have:
 * **Python 3.8+**
 * **Working microphone**
 * **Internet connection** (for web requests & GPT responses)
-
----
-
+  
 ## 🔑 Setup
 
 1. Clone or download this repository.
@@ -68,8 +61,6 @@ Also ensure you have:
    }
    ```
 
----
-
 ## ▶️ Usage
 
 Run the assistant with:
@@ -85,8 +76,6 @@ python main.py
   * “Play sky fall”
   * “Tell me news”
   * “What is artificial intelligence?”
-
----
 
 ## 🛠️ How It Works
 
@@ -112,9 +101,7 @@ python main.py
 
    * Outputs text on console.
    * Speaks aloud via **pyttsx3**.
-
----
-
+     
 ## 📌 Limitations
 
 * Needs **stable internet** for GPT & news.
@@ -122,18 +109,10 @@ python main.py
 * Accuracy depends on **Google Speech Recognition API**.
 * API costs apply if GPT usage exceeds free limits.
 
----
-
 ## 🌟 Future Enhancements
 
 * Add **Spotify/YouTube API integration** for unlimited music.
 * Integrate with **smart home devices**.
 * Add **calendar/scheduler** support.
 * Improve **wake word detection** with hotword libraries like **Snowboy** or **Porcupine**.
-
----
-
-## 📜 License
-
-This project is open-source and free to use for educational and personal purposes.
 
